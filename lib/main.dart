@@ -10,6 +10,9 @@ import 'screens/07.dart';
 import 'screens/08.dart';
 import 'screens/09.dart';
 import 'screens/10.dart';
+import 'screens/11.dart';
+import 'screens/12.dart';
+import 'screens/13.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,14 +24,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: Search(),
+      home: signInGoogle(),
     );
   }
 }
 
+// 1 FirstPage
 // 2 SecondPage
 // 3 SignIn
 // 4 SignUp
@@ -38,3 +42,6 @@ class MyApp extends StatelessWidget {
 // 8 UpdatePass
 // 9 Terms
 //10 Search
+//11 News
+//12 NewPostPage
+//13 Profile
