@@ -197,7 +197,7 @@ class SignUp extends StatelessWidget {
                         textStyle: const TextStyle(
                           fontSize: 18,
                         ),
-                        fixedSize: const Size(150, 60)
+                        fixedSize: const Size(175, 60)
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -220,7 +220,7 @@ class SignUp extends StatelessWidget {
                         textStyle: const TextStyle(
                           fontSize: 18,
                         ),
-                        fixedSize: const Size(150, 60)
+                        fixedSize: const Size(175, 60)
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
