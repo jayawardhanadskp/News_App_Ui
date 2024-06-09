@@ -153,7 +153,7 @@ class SignIn extends StatelessWidget {
                       textStyle: GoogleFonts.montserrat(
                         fontSize: 18,
                       ),
-                      fixedSize: const Size(150, 60)
+                      fixedSize: const Size(175, 60)
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -176,7 +176,7 @@ class SignIn extends StatelessWidget {
                       textStyle: GoogleFonts.montserrat(
                         fontSize: 18,
                       ),
-                        fixedSize: const Size(150, 60)
+                        fixedSize: const Size(175, 60)
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
