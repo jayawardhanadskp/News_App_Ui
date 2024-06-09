@@ -276,7 +276,7 @@ class News extends StatelessWidget {
             
                     Text.rich(
                       TextSpan(
-                      text: 'The UNESCO criteria for raniking Bath a ',
+                      text: 'The UNESCO criteria for ranking Bath a ',
                       style: GoogleFonts.montserrat(
                         fontSize: 16,
                         color: Colors.black,
@@ -312,7 +312,7 @@ class News extends StatelessWidget {
             
                         ),Container(
                           height: 32,
-                          width: 100,
+                          width: 90,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15),
                             color: CustomColors.gray,
@@ -321,7 +321,7 @@ class News extends StatelessWidget {
             
                         ),Container(
                           height: 32,
-                          width: 100,
+                          width: 80,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15),
                             color: CustomColors.gray,
