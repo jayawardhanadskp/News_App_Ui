@@ -47,12 +47,12 @@ class Profile extends StatelessWidget {
                 crossAxisSpacing: 20,
                 mainAxisSpacing: 20,
                 children: [
-                  _options(Icons.person, 'Edit Profile'),
-                  _options(Icons.settings, 'General'),
-                  _options(Icons.notifications, 'Notification'),
-                  _options(Icons.security, 'Security'),
-                  _options(Icons.lock, 'Privacy'),
-                  _options(Icons.help, 'FAQ'),
+                  _options(Icons.person_2_outlined, 'Edit Profile'),
+                  _options(Icons.settings_outlined, 'General'),
+                  _options(Icons.notifications_outlined, 'Notification'),
+                  _options(Icons.security_outlined, 'Security'),
+                  _options(Icons.lock_outline, 'Privacy'),
+                  _options(Icons.help_outline, 'FAQ'),
                   _options(Icons.logout, 'Logout'),
                 ],
               ),
@@ -64,24 +64,27 @@ class Profile extends StatelessWidget {
   }
 
   Widget _options(IconData icon, String title) {
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
-        color: CustomColors.gray,
-      ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(icon, color: CustomColors.lynch, size: 30),
-          const SizedBox(height: 10),
-          Text(
-            title,
-            style: GoogleFonts.montserrat(
-              fontSize: 16,
-              color: CustomColors.lynch,
+    return SizedBox(
+      height: 70,
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: CustomColors.gray,
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(icon, color: CustomColors.lynch, size: 30),
+            const SizedBox(height: 10),
+            Text(
+              title,
+              style: GoogleFonts.montserrat(
+                fontSize: 16,
+                color: CustomColors.lynch,
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
