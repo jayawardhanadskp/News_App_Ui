@@ -6,10 +6,25 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: Stack(
         children: [
-          const SizedBox(height: 350,),
-          Center(child: Image.asset('assets/01.png'))
+          Column(
+            children: [
+              const SizedBox(height: 350,),
+              Center(child: Image.asset('assets/01.png')),
+
+
+            ],
+          ),
+          Positioned(
+            bottom: 0,
+            left: 0,
+            child: SizedBox(
+              height: 300,
+              width: 350,
+              child: Image.asset('assets/bottom.png', fit: BoxFit.cover,),
+            )
+          ),
         ],
       ),
     );
