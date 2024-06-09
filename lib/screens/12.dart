@@ -28,7 +28,7 @@ class NewPostPage extends StatelessWidget {
 
                 },
                 child: Container(
-                  height: 200,
+                  height: 180,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     image: DecorationImage(
@@ -216,7 +216,7 @@ class NewPostPage extends StatelessWidget {
                 ),
               ),
 
-              const SizedBox(height: 20),
+              const SizedBox(height: 40),
               Row(
                 children: [
                   Container(
